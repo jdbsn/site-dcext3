@@ -50,15 +50,15 @@ body {
 
 .links_nav_bar a:hover {
     text-decoration: none;
-    color: #920000;
+    color: #2367C1;
 }
 
 .nav_button {
+    background: linear-gradient(90deg, rgba(156,98,212,1) 30%, rgba(41,107,195,1) 79%);
     padding: 0.8rem;
     border-radius: 2rem;
     outline: none;
     border: none;
-    background: #920000;
     color: #FFF;
     font-weight: bold;
     cursor: pointer;
@@ -78,7 +78,7 @@ body {
 }
 
 .links_nav_bar:hover {
-    color: #940000;
+    color: #2367C1;
 }
 
 #btn_mobile {
@@ -88,7 +88,7 @@ body {
 /* estilização dos titles */
 
 .section_titles {
-    color: #1C3C78;
+    color: #2367C1;
     text-align: center;
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -101,7 +101,7 @@ body {
     width: 100vw;
     height: 550px;
     margin-bottom: 3rem;
-    background-image: url(../assets/banner/hackaupe_banner_desktop.png);
+    background-image: url(../assets/banner/logo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,7 +161,7 @@ body {
 }
 
 .timeline_title {
-    color: #940000;
+    color: #2367C1;
     font-size: 1.9rem;
 }
 
@@ -234,7 +234,7 @@ body {
 }
 
 .inf_member {
-    background-color: #1C3C78;
+    background-color: #2367C1;
     width: 210px;
     padding: 0.2rem;
     color: #EEE;
@@ -285,7 +285,7 @@ body {
     margin-top: 3rem;
     width: 100vw;
     height: 433px;
-    background-color: #940000;
+    background-color: #2367C1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -301,7 +301,7 @@ body {
 
 #banner-footer {
     border-radius: 0.3rem;
-    width: 600px;
+    width: 150px;
 }
 
 .inf_event {
