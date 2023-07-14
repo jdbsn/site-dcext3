@@ -13,6 +13,8 @@ body {
     background-color: #FFF;
     min-height: 100vh;
     min-width: 100vw;
+    overflow-x: hidden; /* pra ficar sem a rolagem horizontal */
+
 }
 
 /* estilização do header da página */
@@ -101,15 +103,18 @@ body {
     width: 100vw;
     height: 550px;
     margin-bottom: 3rem;
-    background-image: url(../assets/banner/logo.jpeg);
-    background-position: center;
+    background-image: url(../assets/banner/BANNER.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0px -45px; /*MIchael: centralizei verticalmente */
+    
+
 }
 
 .banner_section img {
     width: 100vw;
     height: 100vh;
+
 }
 
 /* ----- */
@@ -420,7 +425,15 @@ body {
     /*banner versão mobile*/
 
     .banner_section {
-        background-image: url(../assets/banner/banner_mobile-cb.svg) !important;
+        width: 100%;
+        height: 65vh;
+        background-size: cover;
+        background-image: url(../assets/banner/BANNER.png);
+        /* background-position: -342px 0;  Michael: ajustei "manualmente" pra versão mobile mas a visualização ficou bugada, 
+        aí deixei center msm*/
+        background-position: center;
+
+
     }
 
     /*sessões*/
@@ -583,4 +596,5 @@ body {
         size: 120px;
     }
 
+}
 }
