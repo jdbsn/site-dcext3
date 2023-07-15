@@ -138,6 +138,14 @@ body {
     gap: 2rem;
 }
 
+#doc {
+    transition: transform .2s;
+}
+  
+#doc:hover {
+    transform: scale(1.2);
+}
+  
 .activities_content {
     display: flex;
     flex-direction: column;
@@ -539,7 +547,7 @@ body {
         margin-top: 3rem;
         width: 100vw;
         height: 550px;
-        background-color: #940000;
+        background-color: #2367C1;
         display: flex;
         flex-direction: column;
         align-items: center;
