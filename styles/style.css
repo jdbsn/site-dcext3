@@ -101,14 +101,13 @@ body {
 
 .banner_section {
     width: 100vw;
-    height: 550px;
+    height: 572px;
     margin-bottom: 3rem;
-    background-image: url(../assets/banner/BANNER.png);
+    background-image: url(../assets/banner/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -45px; /*MIchael: centralizei verticalmente */
     
-
 }
 
 .banner_section img {
@@ -118,7 +117,6 @@ body {
 }
 
 /* ----- */
-
 
 .content_row_timeline {
     margin-top: 3rem;
@@ -134,6 +132,10 @@ body {
     display: flex;
     align-items: center;
     gap: 5rem;
+}
+
+#div_edital {
+    gap: 2rem;
 }
 
 .activities_content {
@@ -152,12 +154,12 @@ body {
 }
 
 .timeline_dates {
-    margin-top: 6rem;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 }
 
 .timeline_dates a {
@@ -201,7 +203,7 @@ body {
 .organization_section,
 .support_section,
 .localization_section {
-    margin-top: 7rem;
+    margin-top: 2rem;
 }
 
 .collum_activities {
@@ -226,7 +228,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .member_container {
@@ -336,7 +337,7 @@ body {
 
 .rights_reserved {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: #FFF;
 }
 
@@ -372,7 +373,7 @@ body {
     }
 
     #nav.active #menu {
-        height: calc(77vh - 90px);
+        height: calc(58vh - 90px);
         visibility: visible;
         overflow-y: auto;
     }
@@ -394,7 +395,7 @@ body {
         display: block;
         width: 20px;
         border-top: 2px solid;
-        color: #920000;
+        color: #2367C1;
     }
 
     #menu_hamburguer::after,
@@ -428,12 +429,10 @@ body {
         width: 100%;
         height: 65vh;
         background-size: cover;
-        background-image: url(../assets/banner/BANNER.png);
+        background-image: url(../assets/banner/banner_mobile-cb.png);
         /* background-position: -342px 0;  Michael: ajustei "manualmente" pra versão mobile mas a visualização ficou bugada, 
         aí deixei center msm*/
         background-position: center;
-
-
     }
 
     /*sessões*/
@@ -467,20 +466,19 @@ body {
     /*cronograma*/
 
     .timeline_dates {
-        margin-top: 3rem;
+        margin-top: 1rem;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
         margin-bottom: 3rem;
     }
 
     /*organização*/
 
-
     .org_members {
         margin-top: 3rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(11, 1fr);
+        grid-template-rows: repeat(10, 1fr);
         gap: 0.7rem;
     }
 
@@ -587,14 +585,19 @@ body {
     
     .rights_reserved {
         text-align: center;
-        margin-top: 5rem;
+        margin-top: 2rem;
         color: #FFF;
         font-size: 0.8rem;
     }
     
-    #aaa {
-        size: 120px;
+    #doc {
+        width: 100px;
+        height: 100px;
     }
 
-}
+    #banner-footer {
+        width: 180px;
+        height: 180px;
+    }
+
 }
