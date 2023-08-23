@@ -208,7 +208,6 @@
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-     
     }
     
     #banner-footer {
@@ -219,6 +218,7 @@
     .inf_event {
         display: flex;
         flex-direction: column;
+        gap: 1.5rem;
     }
     
     .contact,

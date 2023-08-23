@@ -30,12 +30,19 @@ body {
 }
 
 .logo_page h1 {
-    font-size: 1.3rem;
+    font-size: 10rem;
 }
 
 .nav_links {
     display: flex;
     gap: 2rem;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+#nav {
+    justify-content: center;
+    align-self: center;
 }
 
 .links_nav_bar {
@@ -95,25 +102,24 @@ body {
     font-size: 2.2rem;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 0%;
 }
 
 /* estilização das sections da página */
 
 .banner_section {
     width: 100vw;
-    height: 572px;
+    height: 550px;
     margin-bottom: 3rem;
     background-image: url(../assets/banner/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -45px; /*MIchael: centralizei verticalmente */
-    
 }
 
 .banner_section img {
     width: 100vw;
     height: 100vh;
-
 }
 
 /* ----- */
@@ -124,7 +130,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-
 }
 
 .content_box {
@@ -161,6 +166,38 @@ body {
     font-weight: 400;
 }
 
+.member_name {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.1rem;
+}
+
+.timeline_title {
+    font-weight: bold;
+}
+
+.content_timeline > p{
+    margin: 0%;
+}
+
+.member_role {
+    font-size: 1rem;
+    margin: 0.1rem;
+}
+
+.carousel {
+    margin-top: 40px;
+}
+
+.carousel-title {
+    text-shadow: 
+        1px 0px 0px black,
+        -1px 0px 0px black,
+        0px 1px 0px black, 
+        0px -1px 0px black;
+    color:  white; 
+}
+
 .timeline_dates {
     margin-top: 4rem;
     display: flex;
@@ -195,7 +232,6 @@ body {
 }
 
 .content_timeline:hover {
-
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.35);
     transform: scale(1.2);
 }
@@ -310,7 +346,7 @@ body {
 .footer_page {
     margin-top: 3rem;
     width: 100vw;
-    height: 433px;
+    height: 300px;
     background-color: #2367C1;
     display: flex;
     flex-direction: column;
@@ -332,7 +368,8 @@ body {
 
 .inf_event {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 5rem;
 }
 
 .flex-container {
@@ -351,7 +388,6 @@ body {
 
 .contact,
 .social_media {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
