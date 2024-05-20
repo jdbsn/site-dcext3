@@ -86,8 +86,31 @@ body {
     transition: ease-in-out .2s all;
 }
 
-.links_nav_bar:hover {
+.links_nav_bar a{
+    position: relative;
+}
+
+.links_nav_bar a:hover {
     color: #2367C1;
+}
+
+.links_nav_bar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: #2367C1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s;
+}
+
+.links_nav_bar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s;
 }
 
 #btn_mobile {
